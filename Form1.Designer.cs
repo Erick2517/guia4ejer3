@@ -33,6 +33,7 @@ namespace guia4ejer3
             this.btnMostrarTabla = new System.Windows.Forms.Button();
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.lstTablaMultiplicar = new System.Windows.Forms.ListView();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -71,11 +72,21 @@ namespace guia4ejer3
             this.lstTablaMultiplicar.UseCompatibleStateImageBehavior = false;
             this.lstTablaMultiplicar.View = System.Windows.Forms.View.List;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(504, 61);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "BtnPrueba";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lstTablaMultiplicar);
             this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.btnMostrarTabla);
@@ -93,6 +104,7 @@ namespace guia4ejer3
         private System.Windows.Forms.Button btnMostrarTabla;
         private System.Windows.Forms.TextBox txtNumero;
         private System.Windows.Forms.ListView lstTablaMultiplicar;
+        private System.Windows.Forms.Button button1;
     }
 }
 
