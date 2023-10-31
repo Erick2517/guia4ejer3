@@ -34,5 +34,10 @@ namespace guia4ejer3
                 lstTablaMultiplicar.Items.Add("Ingrese un número válido");
             }
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
